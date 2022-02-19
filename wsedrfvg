@@ -1,0 +1,119 @@
+# a = '안녕하세요'
+# print(a*2)
+# a = int(input())
+# print(a+10)
+# a = int(input())
+# if a % 2 == 0:
+#     print("짝수")
+# else:
+#     print("홀수")
+
+# a = int(input())
+# a += 25
+# if a > 255:
+#     print(255)
+# else:
+#     print(a)
+
+# a = int(input())
+# a -= 25
+# if a < 0:
+#     print(0)
+# else:
+#     a += 25
+#     print(255)
+#
+#     print(a)
+
+
+
+# a = input("현재시간")
+# if a[-2:] == "00":
+#     print("정각")
+# else:
+#     print("정각이 ㄴ")
+
+# fruit = ['사과','포도','홍시']
+# a = input("좋아하는 과일은?")
+# if a in fruit:
+#     print("정답입니다")
+# else:
+#     print("오답입니다.")
+
+
+# warn_investment_list = ['microsoft','google','naver','kakao','samsung','LG']
+# stock = input()
+# if stock in warn_investment_list:
+#     print("투자 경고 종목입니다.")
+# else:
+#     print("투자 경고 종목이아닙니다.")
+#
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# season = input("제가 좋아하는 계절은:")
+# if season in fruit:
+#     print("정답입니다")
+# else:
+#     print("오답입니다.")
+
+# fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
+# a = input("좋아하는 과일은?")
+# if a in fruit.values():
+#     print("정답입니다.")
+# else:
+#     print("오답입니다.")
+
+# a = input()
+# if a.islower():
+#     print(a.upper())
+# else:
+#     print(a.lower())
+
+# score = int(input("score: "))
+# if 81 <= score <= 100:
+#     print("grade is A")
+# elif 61 <= score <= 80:
+#     print("grade is B")
+# elif 41 <= score <= 60:
+#     print("grade is C")
+# elif 21 <= score <= 40:
+#     print("grade is D")
+# else:
+#     print("grade is E")
+
+# ER = {"달러":1667, "엔":1.196, "유로":1268, "위안":171}
+# a = input(0)
+# num, currecy = a.split()
+# print(float(num)* ER[currecy], "원")
+
+# a = int(input("input number1 : "))
+# b = int(input("input number2 : "))
+# c = int(input("input number3 : "))
+# if a > b and a > c:
+#     print(a)
+# elif b > a and b > c:
+#     print(b)
+# elif c > a and c > b:
+#     print(c)
+# else:
+#     print(c)
+
+# number = input("휴대전화 번호 입력: ")
+# num = number.split("-")[0]
+# if num == "011":
+#     com == "SKT"
+# elif num == "016":
+#     com = "KT"
+# elif num == "019":
+#     com = "LGU"
+# else:
+#     com = "알수없음"
+# print("당신은 %s 사용자입니다."%(com))
+
+# num = input("우편번호 입력: ")
+# num = num[:3]
+# if num in ['010','011','012']:
+#     print("강북구")
+# if num in ['013', '014', '014']:
+#     print("도봉구")
+# else:
+#     print("노원구")
